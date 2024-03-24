@@ -1,6 +1,6 @@
 # OCHI DESIGN - Awwwarded Website Clone
 
-Welcome to OCHI DESIGN, a stunning website clone inspired by award-winning designs from Awwwards. This project utilizes React.js, Framer Motion, GSAP, and Locomotive Scroll to deliver a fantastic user experience with a variety of components.
+Welcome to OCHI DESIGN, a stunning website clone inspired by award-winning designs from Awwwards. This project utilizes React.js, Framer Motion, GSAP, Locomotive Scroll, and React Router DOM to deliver a fantastic user experience with a variety of components.
 
 ## Deployed Website Link:
 You can access the deployed version of OCHI DESIGN [here](https://66000c49071f06c34661a9cd--scintillating-melba-9b7a73.netlify.app/).
@@ -22,11 +22,21 @@ You can access the deployed version of OCHI DESIGN [here](https://66000c49071f06
 5. **Eyes Component with User Interaction Animation:**
    - Experience our unique Eyes component, featuring mesmerizing user interaction animations that keep visitors engaged and entertained.
 
+6. **Routes and Responsiveness:**
+   - Implemented routes using React Router DOM for seamless navigation between different sections of the website.
+   - Made the website fully responsive to ensure compatibility across various devices and screen sizes.
+
 ## Technologies Used:
 
 - **React.js:** Utilized for building the frontend components and managing the application's state.
 - **Framer Motion:** Implemented for creating fluid animations and interactive gestures, enhancing the overall user experience.
 - **GSAP (GreenSock Animation Platform):** Employed for advanced animation effects, adding depth and richness to the website's visuals.
 - **Locomotive Scroll:** Integrated for smooth scrolling functionality, ensuring seamless navigation throughout the website.
+- **React Router DOM:** Used for setting up and managing routes within the application.
+- **Responsive Design:** Ensured the website is fully responsive using  flexible layout techniques.
+
+
+
+
 
 
