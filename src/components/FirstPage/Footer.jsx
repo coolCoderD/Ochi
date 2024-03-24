@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='flex gap-5 w-full h-screen bg-zinc-900 p-20'>
+    <div className='flex gap-5 w-full h-screen  p-20'>
         <div className='w-1/2  h-full justify-between flex flex-col'>
             <div>
             <h1 className='text-[9vw] font-semibold uppercase leading-none '>Eye-</h1>

@@ -1,24 +1,19 @@
-import React  from 'react'
-import Navbar from './components/Navbar'
-import LandingPage from './components/LandingPage'
-import Marque from './components/Marque'
-import About from './components/About'
-import Eyes from './components/Eyes'
-import Footer from './components/Footer'
+import React, { useEffect }  from 'react'
+import Navbar from './components/FirstPage/Navbar'
 import LocomotiveScroll from 'locomotive-scroll'
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  const scroll = new LocomotiveScroll();
+  useEffect(() => {
+    const scroll = new LocomotiveScroll();
+    return () => {
+      scroll.destroy();
+    };
+  }, []);
   return (
     <>
-    <div className='w-full min-h-screen  bg-zinc-900 text-white'>
-      <Navbar/>
-      <LandingPage/>
-      <Marque/>
-      <About/>
-      <Eyes/>
-      <Footer/>
-    </div>
+    <Navbar/>
+    <Outlet/>
     </>
   )
 }

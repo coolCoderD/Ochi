@@ -5,13 +5,13 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage() {
   return (
-    <div  data-scroll data-scroll-section data-scroll-speed='-0.3' className='w-full bg-zinc-900 pt-1'> 
+    <div  data-scroll data-scroll-section data-scroll-speed='-0.3' className='w-full  pt-1'> 
         <div className='textstructure mt-32 px-20'>
             {
                 ["we create","eye opening","prsentations"].map((item,index)=>(
                     <div className='masker '>
                     <div className='w-fit flex items-center'> 
-                    {index===1 && <motion.div initial={{width:0}} animate={{width:"9vw"}}  transition={{ease:[0.76,0,0.24,1], duration:2}} className='w-[10vw] h-[6.6vw] mt-[1.5vw] rounded-md bg-[#004D43] mr-1'></motion.div>}
+                    {index===1 && <motion.div initial={{width:0}} animate={{width:"9vw"}}  transition={{ease:[0.76,0,0.24,1], duration:2}} className='w-[10vw] h-[6.6vw] mt-[1.5vw] rounded-md bg-[#003249] mr-1'></motion.div>}
                     <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }}  transition={{ease:[0.76,0,0.24,1], duration:1}} className='uppercase text-[9.5vw] leading-[7.5vw]  tracking-tighter font-bold '>{item}</motion.h1 >
                     </div>
                 </div>
