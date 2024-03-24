@@ -5,6 +5,16 @@ Welcome to OCHI DESIGN, a stunning website clone inspired by award-winning desig
 ## Deployed Website Link:
 You can access the deployed version of OCHI DESIGN [here](https://66000c49071f06c34661a9cd--scintillating-melba-9b7a73.netlify.app/).
 
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- React.js
+- Framer Motion
+- GSAP
+- Locomotive Scroll
+- React Router DOM
+- Vite
+- Tailwind CSS
+
 ## Features:
 
 1. **Animated Navbar:**
