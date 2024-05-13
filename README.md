@@ -1,4 +1,4 @@
-# OCHI DESIGN - Awwwarded Website Clone
+# OCHI DESIGN - Awarded Website Clone
 
 Welcome to OCHI DESIGN, a stunning website clone inspired by award-winning designs from Awwwards. This project utilizes React.js, Framer Motion, GSAP, Locomotive Scroll, and React Router DOM to deliver a fantastic user experience with a variety of components.
 
